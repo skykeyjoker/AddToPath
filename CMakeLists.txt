@@ -8,7 +8,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-find_package(Qt5 COMPONENTS Widgets Core)
+find_package(Qt5 COMPONENTS Core)
 
 add_executable(AddToPath main.cpp UAC.h)
 
